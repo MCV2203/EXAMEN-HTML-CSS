@@ -113,3 +113,69 @@ button {
     height: auto;
     border-radius: 4px;
 }
+
+@media (width <= 375px){
+
+    body {
+        margin: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 20px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    main {
+        gap: 30px;
+        padding: 0px 32px 96px 32px;
+        width: 100%;
+        align-items: center;
+        
+    }
+    header {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 60px;
+        margin: 0;
+        gap: 70px;
+    }
+    .grafico {
+        width: 311px;
+    }
+    .mini-graf{
+        width: 311px;
+    }
+    .cajones {
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+    .doc {
+        display: none;
+    }
+    .stat {
+        display: none;
+    }
+    .pri {
+        display: none;
+    }
+    .faq {
+        display: none;
+    }
+    .cont {
+        display: none;
+    }
+    h1 {
+        font-size: 48px;
+    }
+    p {
+        font-size: 14px;
+    }
+    .header-der {
+        gap: 5px;
+    }
+    .header-izq {
+        gap: 5px;
+    }
+}
