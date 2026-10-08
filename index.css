@@ -1,0 +1,115 @@
+body {
+    background-color: #09090B;
+    color: #FAFAFA;
+    font-family: "Inter", sans-serif;
+}
+
+header {
+    border-bottom: 1px solid #27272A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 48px;
+    margin-bottom: 144px;
+}
+
+footer {
+    border-top: 1px solid #27272A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 48px;
+    margin-top: 144px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+button {
+    background-color: #FAFAFA;
+    border: none;
+    height: 32px;
+    width: auto;
+    border-radius: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header-izq {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.header-der {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.footer-izq {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.footer-der {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.grafico {
+    width: 1024px;
+    height: auto;
+    border-radius: 4px;
+}
+
+.cajones {
+    display: flex;
+    gap: 48px;
+}
+
+.cajon {
+    width: 288px;
+    height: 220px;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.cajon.h3 {
+    font-size: 24px;
+}
+
+.cuadrado {
+    border: #27272A 1px solid;
+    border-radius: 6px;
+    width: 56px;
+    height: auto;
+}
+
+.get {
+    margin: 20px 0px 20px 15px;
+}
+
+.secciones {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mini-graf {
+    width: 672px;
+    height: auto;
+    border-radius: 4px;
+}
